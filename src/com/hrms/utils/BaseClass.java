@@ -22,6 +22,10 @@ public static WebDriver driver;
 		System.out.println("Application got opened3");
 		System.out.println("Application got opened4");
 		//ajgsaj
+		System.out.println("I am trying to change from");
+		System.out.println("GitDrmo/develop branch");
+		System.out.println("But no change happened at GitX/master");
+		
 	}
 	
 	public static void closeApplicatin() {
