@@ -17,11 +17,13 @@ public static WebDriver driver;
 		driver.navigate().to("http://127.0.0.1/orangehrm-2.6/login.php");
 		//prints in html reports
 		Reporter.log("Application opened...");
+		System.out.println("Application got opened");
 	}
 	
 	public static void closeApplicatin() {
 		driver.close();
 		Reporter.log("Application got Closed...");
+		System.out.println("Application got closed");
 	}
 	
 }
