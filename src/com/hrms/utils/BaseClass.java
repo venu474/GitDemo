@@ -18,12 +18,19 @@ public static WebDriver driver;
 		//prints in html reports
 		Reporter.log("Application opened...");
 		System.out.println("Application got opened");
+		System.out.println("Application got opened2");
+		System.out.println("Application got opened3");
+		System.out.println("Application got opened4");
+		//ajgsaj
 	}
 	
 	public static void closeApplicatin() {
 		driver.close();
 		Reporter.log("Application got Closed...");
 		System.out.println("Application got closed");
+		System.out.println("Application got closed2");
+		System.out.println("Application got closed3");
+		System.out.println("Application got closed4");
 	}
 	
 }
