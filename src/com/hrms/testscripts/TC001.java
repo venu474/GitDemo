@@ -18,6 +18,7 @@ public static void tc001() throws Exception{
 	Login.login("admin", "admin");//bcz we added thread.sleep()
 	VerifyPage.verifyTitle("OrangeHRM");
 	Logout.logout();
+	System.out.println("Final commit");
 	BaseClass.closeApplicatin();
 }
 	
